@@ -13,7 +13,7 @@ quote = "1.0.40"
 syn = "2.0.104"
 
 [dev-dependencies]
-z80_forth = { version = "0.1.0", path = "../z80_forth" }
+z80_forth = { version = "=0.1.0", path = "../z80_forth" }
 
 [lib]
 proc-macro = true

@@ -9,5 +9,5 @@ keywords = ["compiler", "forth", "embedded", "z80", "calculator"]
 categories = ["compilers", "command-line-utilities", "embedded"]
 
 [dependencies]
-z80_forth_derive = { version = "0.1.0", path = "../z80_forth_derive" }
+z80_forth_derive = { version = "=0.1.0", path = "../z80_forth_derive" }
 
