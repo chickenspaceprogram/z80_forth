@@ -1,0 +1,19 @@
+[package]
+name = "z80_forth_derive"
+version = "0.1.0"
+edition = "2024"
+description = "Derive macros for the z80_forth compiler"
+repository = "https://github.com/chickenspaceprogram/z80_forth"
+license = "MPL-2.0"
+keywords = ["compiler", "forth", "embedded", "z80", "calculator"]
+categories = ["compilers", "command-line-utilities", "embedded"]
+
+[dependencies]
+quote = "1.0.40"
+syn = "2.0.104"
+
+[dev-dependencies]
+z80_forth = { version = "0.1.0", path = "../z80_forth" }
+
+[lib]
+proc-macro = true
