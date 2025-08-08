@@ -2,3 +2,7 @@
 name = "z80_forth"
 version = "0.1.0"
 edition = "2024"
+description = "A Forth compiler for z80 processors, particularly aimed towards the TI-8x series of graphing calculators."
+repository = "https://github.com/chickenspaceprogram/z80_forth"
+license = "MPL-2.0"
+keywords = ["compilers", "command-line-utilities", "embedded"]
